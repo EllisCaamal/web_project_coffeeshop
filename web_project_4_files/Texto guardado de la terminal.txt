@@ -1,0 +1,21 @@
+Last login: Tue Aug  6 21:13:08 on ttys002
+elliscaamal@MacBook-Air-de-Ellis ~ % git config --global user.name "Elliscaamal"
+elliscaamal@MacBook-Air-de-Ellis ~ % git config --global user.email ellis_caamal13@hotmail.com
+elliscaamal@MacBook-Air-de-Ellis ~ % git config --list  
+credential.helper=osxkeychain
+init.defaultbranch=main
+user.name=Elliscaamal
+user.email=ellis_caamal13@hotmail.com
+elliscaamal@MacBook-Air-de-Ellis ~ % git config --global init.defaultBranch main
+elliscaamal@MacBook-Air-de-Ellis ~ % git config --list
+credential.helper=osxkeychain
+init.defaultbranch=main
+user.name=Elliscaamal
+user.email=ellis_caamal13@hotmail.com
+init.defaultbranch=main
+elliscaamal@MacBook-Air-de-Ellis ~ % 
+
+
+
+
+
