@@ -5,6 +5,7 @@
   line-height: 20px;
   font-weight: 400;
   background-color: #ffffff;
+  background-repeat: no-repeat;
 }
 .header {
   display: flex;
@@ -12,30 +13,33 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  margin-top: 30px;
+  position: relative;
+  background-image: url("../images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
 }
 .nav {
-  display: flex;
-  width: 39px;
-  height: 105px;
-  margin-right: 20px;
-  margin-left: 30px;
-  padding: 0%;
-  justify-content: space-between;
 }
 .nav__logo {
-  margin-left: 30px;
+  position: absolute;
+  width: 105px;
+  height: 39px;
+  top: 30px;
+  left: 30px;
 }
 .nav__links {
   display: flex;
-  margin-right: 80px;
   column-gap: 20px;
   list-style-type: none;
-  justify-content: end;
+  position: absolute;
+  right: 80px;
+  top: 30px;
+  padding: 0%;
 }
 .nav__link {
   color: #000000;
-  margin-top: 30px;
   text-decoration: none;
   font-family: "inter";
   font-style: normal;
@@ -76,31 +80,35 @@
 }
 
 .header__image {
-  width: 636px;
-  height: 568px;
-  margin-left: 5px;
-  align-items: flex-end;
+  max-width: 646px;
+  min-height: 568px;
+  position: absolute;
+  right: 5px;
+  top: 124px;
 }
 .header__footer {
   display: flex;
-  margin-top: auto;
-  margin-right: 80px;
-  margin-bottom: 40px;
   justify-content: flex-end;
   font-family: "inter", arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
 }
 .paragraph {
-  margin-bottom: 40px;
-  margin-left: 80px;
   font-family: "inter", arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  position: absolute;
+  left: 80px;
+  bottom: 40px;
+  margin: 0;
+  padding: 0%;
 }
 .recipe__tittle {
   font-family: "Inter";
@@ -110,7 +118,6 @@
   line-height: 52px;
   margin-left: 80px;
   max-width: 580px;
-  margin-top: 100px;
 }
 .subtitle {
   max-width: 438px;
@@ -120,7 +127,6 @@
   font-size: 20px;
   line-height: 30px;
   margin-left: 80px;
-  margin-top: 24px;
 }
 .content {
   background-color: #0a2750;
@@ -130,8 +136,6 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%;
-  margin-top: 80px;
 }
 .video__iframe {
   display: flex;
