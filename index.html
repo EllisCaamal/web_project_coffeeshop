@@ -28,7 +28,7 @@
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#recipe">Recetas</a>
+              <a class="nav__link" href="#recipes">Recetas</a>
             </li>
             <li>
               <a class="nav__link" href="#reserve">Reservar una mesa</a>
@@ -38,69 +38,69 @@
             </li>
           </ul>
         </nav>
-        <div>
-          <h1 class="span-accent">
-            <span>Café de especialidad</span>
-            <p class="triple">en Triple Peaks</p>
-          </h1>
-          <p class="header__description">
-            ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
-            para darte energía y motivar tu creatividad.
-          </p>
-          <img
-            src="images/inside_coffee_shop.png"
-            alt="Ilustración 'Dentro de la biblioteca'"
-            class="header__image"
-          />
-        </div>
+        <h1 class="header__title">
+          <span class="span-accent">Café de especialidad</span>
+          <br />
+          en Triple Peaks
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y motivar tu creatividad.
+        </p>
+        <img
+          src="images/inside_coffee_shop.png"
+          alt="Ilustración 'Dentro de la biblioteca'"
+          class="header__image"
+        />
+      </header>
+      <footer class="footer">
         <div class="header__footer">
-          <p class="header__address">
+          <p class="header__paragraph">Horario:</p>
+          <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
+          <p class="header__paragraph">
+            Sábados y Domingos (de 11:00h a 18:00h)
+          </p>
+          <p class="header__paragraph_sub">
             Avenida del Éxito 200, Cuidad Triple Peaks
           </p>
         </div>
-        <div class="paragraph">
-          <p>Horario:</p>
-          <p>Lunes a Viernes (de 10:00h a 19:00h)</p>
-          <p>Sábados y Domingos (de 11:00h a 18:00h)</p>
-        </div>
-      </header>
+      </footer>
       <main class="content">
-        <section class="recipe" id="recipe">
-          <h2 class="recipe__tittle">Recetas</h2>
-          <p class="recipe__subtitle">
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__tittle">Recetas</h2>
+          <p class="recipes__subtitle">
             Echa un vistazo a las recetas que hemos reunido para que elabores
             tus propios snacks
           </p>
-          <div class="videos">
+          <div class="recipes__videos">
             <iframe
-              class="video-iframe"
+              class="recipes__iframe"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/j6VlT_jUVPc?si=5ck_diN5DUI36Qtr"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
             <iframe
-              class="iframe"
+              class="recipes__iframe"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/st571DYYTR8?si=OIa3VPWj9lYRt0Y8"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
-            <h2 class="title">
-         <ul>Receta en Aeropress</ul>
-<ul>~5 min</ul>
-         <ul class="title-2">Receta de cafetera francesa</ul>
-         <ul>~15 min</ul>
-        </h2>
-          </div>
+            <div class="video">
+              <p class="video__caption">Receta en Aeropress</p>
+              <p class="min">~5 min</p>
+            </div>
+            <div class="title-2">
+              <p>Receta en cafetera francesa</p>
+              <p class="minu">~15 min</p>
+            </div>
           </div>
         </section>
         <section class="reserve" id="reserve"></section>
