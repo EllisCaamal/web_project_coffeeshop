@@ -26,12 +26,17 @@
             alt="Logotipo de la Biblioteca Triple Peaks"
             class="nav__logo"
           />
+          <img
+            src="images/inside_coffee_shop.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
           <ul class="nav__links">
             <li>
               <a class="nav__link" href="#recipes">Recetas</a>
             </li>
             <li>
-              <a class="nav__link" href="#reserve">Reservar una mesa</a>
+              <a class="nav__link" href="#reservation">Reservar una mesa</a>
             </li>
             <li>
               <a class="nav__link" href="#footer">Contactos</a>
@@ -47,13 +52,8 @@
           ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
           para darte energía y motivar tu creatividad.
         </p>
-        <img
-          src="images/inside_coffee_shop.png"
-          alt="Ilustración 'Dentro de la biblioteca'"
-          class="header__image"
-        />
-        <footer class="footer">
-          <div class="header__footer">
+        <div class="header__footer">
+          <div class="header__schedules">
             <p class="header__paragraph">Horario:</p>
             <p class="header__paragraph">
               Lunes a Viernes (de 10:00h a 19:00h)
@@ -61,15 +61,17 @@
             <p class="header__paragraph">
               Sábados y Domingos (de 11:00h a 18:00h)
             </p>
-            <p class="header__paragraph_sub">
+          </div>
+          <div class="header__address">
+            <p class="header__paragraph">
               Avenida del Éxito 200, Cuidad Triple Peaks
             </p>
           </div>
-        </footer>
+        </div>
       </header>
       <main class="content">
         <section class="recipes" id="recipes">
-          <h2 class="recipes__tittle">Recetas</h2>
+          <p class="recipes__title">Recetas</p>
           <p class="recipes__subtitle">
             Echa un vistazo a las recetas que hemos reunido para que elabores
             tus propios snacks
@@ -105,8 +107,9 @@
             </div>
           </div>
         </section>
-        <section class="reserve" id="reserve"></section>
+        <section class="reservation" id="reservation"></section>
       </main>
+      <footer class="footer"></footer>
     </div>
   </body>
 </html>
