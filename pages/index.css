@@ -198,27 +198,61 @@
 }
 .reservation__title {
   margin-top: 100px;
-  margin-bottom: 80px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
 }
-.form {
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.reservation__form {
+  margin: auto;
   align-items: center;
+  margin-bottom: 120px;
 }
 .form__input {
+  height: 60px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+.legend {
+  margin-bottom: 8px;
 }
 .form__button:hover {
   border-radius: 4px;
-  opacity: 100% a 70%;
+}
+.form__button {
+  margin-bottom: 32px;
   background-color: #2f80ed;
-  background-image: url("../images/check.svg");
+  height: 60px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+  width: 100%;
 }
 .form__checkbox {
   border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
 }
-.fieldset {
-  border-radius: none;
+.label {
+  display: flex;
+  margin-bottom: 120px;
+  justify-content: center;
 }
